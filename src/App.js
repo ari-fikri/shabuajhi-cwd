@@ -18,7 +18,7 @@ import gallery4 from './assets/gallery_4.jpeg';
 
 export default function App() {
   const PRIMARY = "#ff472f";
-  const WHATSAPP = "https://wa.me/62812xxxxxxx?text=Halo%20Shabuajihi,%20saya%20ingin%20pesan"; // <-- replace with real number
+  const WHATSAPP = "https://wa.me/6285314680572?text=Halo%20Shabuajihi,%20saya%20ingin%20pesan"; // <-- replace with real number
 
   const menu = [
     { id: 1, name: "Shabu Classic", desc: "Thinly sliced beef, house broth, seasonal veg.", price: "Rp 85.000", img: fullMenuImage },
