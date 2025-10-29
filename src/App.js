@@ -9,6 +9,7 @@ import gallery1 from './assets/gallery_1.jpg';
 import gallery2 from './assets/gallery_2.jpg';
 import gallery3 from './assets/gallery_3.png';
 import gallery4 from './assets/gallery_4.jpeg';
+import saLogo from './assets/sa_logo_w_on_b.png';
 
 // Shabuajihi Ciwidey — Single-file React SPA (TailwindCSS)
 // - Single page application layout with sections: Home, Menu (6 items), Gallery, Reviews, Contact
@@ -62,9 +63,7 @@ export default function App() {
       <header className="fixed top-0 left-0 right-0 z-50 backdrop-blur-md bg-white/50 border-b">
         <div className="max-w-6xl mx-auto px-6 py-3 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="w-11 h-11 rounded-md flex items-center justify-center" style={{ backgroundColor: PRIMARY }}>
-              <span className="text-white font-bold">SC</span>
-            </div>
+            <img src={saLogo} alt="Shabuajihi Ciwidey Logo" className="w-16 h-16" />
             <div>
               <h1 className="text-lg font-bold">Shabuajihi Ciwidey</h1>
               <p className="text-xs text-gray-600">Ciwidey — authentic Japanese-inspired shabu</p>
