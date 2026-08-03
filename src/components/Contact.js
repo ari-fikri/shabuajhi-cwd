@@ -5,14 +5,14 @@ export default function Contact({ WHATSAPP }) {
     <section id="contact" className="py-16">
       <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-8 items-start">
         <div>
-          <h3 className="text-3xl font-bold">Contact Us</h3>
-          <p className="text-gray-600 mt-2">Find us on the map or chat with us directly on WhatsApp.</p>
+          <h3 className="text-3xl font-bold">Hubungi Kami</h3>
+          <p className="text-gray-600 mt-2">Cari kami di Gmap atau hubungi langsung via WhatsApp.</p>
 
           <div className="mt-6 space-y-3">
             <div className="flex items-start gap-3">
               <div className="w-10 h-10 rounded-full flex items-center justify-center bg-gray-100">📍</div>
               <div>
-                <div className="font-semibold">Address</div>
+                <div className="font-semibold">Alamat</div>
                 <div className="text-sm text-gray-600">Komp Sukarasa Permai Jl. Jati Blok B-48, Kec. Pasirjambu, Kab Bandung, Jawa Barat 40972</div>
               </div>
             </div>
@@ -29,7 +29,7 @@ export default function Contact({ WHATSAPP }) {
               <div className="w-10 h-10 rounded-full flex items-center justify-center bg-gray-100">📞</div>
               <div>
                 <div className="font-semibold">WhatsApp</div>
-                <div className="text-sm text-gray-600"><a href={WHATSAPP} target="_blank" rel="noreferrer">Chat with us</a></div>
+                <div className="text-sm text-gray-600"><a href={WHATSAPP} target="_blank" rel="noreferrer">Silakan tanya kami</a></div>
               </div>
             </div>
           </div>

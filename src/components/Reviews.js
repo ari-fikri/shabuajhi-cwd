@@ -4,8 +4,8 @@ export default function Reviews({ reviews }) {
   return (
     <section id="reviews" className="py-16 bg-white">
       <div className="max-w-4xl mx-auto px-6 text-center">
-        <h3 className="text-3xl font-bold">Reviews</h3>
-        <p className="text-gray-600 mt-2">What customers say about us.</p>
+        <h3 className="text-3xl font-bold">Testimoni</h3>
+        <p className="text-gray-600 mt-2">Ungkapan kepuasan para pelanggan kami.</p>
 
         <div className="mt-8 grid md:grid-cols-3 gap-6">
           {reviews.map((r) => (

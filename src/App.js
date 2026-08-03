@@ -25,9 +25,9 @@ export default function App() {
   const WHATSAPP = "https://wa.me/6285314680572?text=Halo%20Shabuajihi,%20saya%20ingin%20pesan";
 
   const reviews = [
-    { id: 1, name: "Rina", text: "Best shabu I had in Ciwidey — broths are rich and service is friendly!" },
-    { id: 2, name: "Andi", text: "Perfect on a cold evening. Fast delivery and everything arrived hot." },
-    { id: 3, name: "Sari", text: "Fresh ingredients and generous portions. Highly recommended." },
+    { id: 1, name: "Rina", text: "Shabu terlezat yang pernah saya coba — kuahnya kaya rasa dan pelayanannya ramah!" },
+    { id: 2, name: "Andi", text: "Mantap sekali dimakan untukdi malam yang dingin. Respon dan pengiriman cepat, walaupun kami memesan pada saat hujan" },
+    { id: 3, name: "Sari", text: "Dagingnya empuk, sayurnya segar dan porsinya melimpah. Sangat direkomendasikan." },
   ];
 
   const galleryImages = [gallery1, gallery2, gallery3, gallery4, gallery1, gallery2, gallery3, gallery4, gallery1];

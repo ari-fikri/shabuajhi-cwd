@@ -11,17 +11,17 @@ export default function Hero({ parallaxRef, heroImgRef, PRIMARY, WHATSAPP }) {
       <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-8 items-center relative z-10">
         <div className="text-white md:text-left text-center">
           <h2 className="text-4xl md:text-5xl font-extrabold leading-tight">Shabuajihi Ciwidey</h2>
-          <p className="mt-4 text-lg opacity-90">Warm, Japanese-inspired shabu served hot — perfect for Ciwidey nights.</p>
+          <p className="mt-4 text-lg opacity-90">"Shabu hangat ala Jepang yang disajikan panas — sempurna untuk menghangatkan malam dingin di Ciwidey."</p>
 
           <div className="mt-6 flex justify-center md:justify-start gap-3">
             <a href={WHATSAPP} target="_blank" rel="noreferrer" className="inline-flex items-center gap-3 px-6 py-3 rounded-full shadow-lg font-semibold" style={{ backgroundColor: "#fff", color: PRIMARY }}>Order via WhatsApp</a>
-            <a href="#menu" className="inline-flex items-center gap-3 px-6 py-3 rounded-full border font-semibold bg-transparent text-white/90">See Menu</a>
+            <a href="#menu" className="inline-flex items-center gap-3 px-6 py-3 rounded-full border font-semibold bg-transparent text-white/90">Lihat Menu</a>
           </div>
 
           <ul className="mt-8 text-sm opacity-90 space-y-2">
-            <li>· Fresh local ingredients</li>
-            <li>· Broth recipes inspired by Japanese umami</li>
-            <li>· Fast delivery within Ciwidey</li>
+            <li>· Bahan-bahan lokal yang segar</li>
+            <li>· Resep kaldu yang terinspirasi dari umami khas Jepang</li>
+            <li>· Pengiriman cepat di wilayah Ciwidey</li>
           </ul>
         </div>
 

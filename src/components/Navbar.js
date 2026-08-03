@@ -9,16 +9,16 @@ export default function Navbar({ isMenuOpen, setIsMenuOpen, handleNavClick, main
           <img src={saLogo} alt="Shabuajihi Ciwidey Logo" className="w-14 h-14 md:w-20 md:h-20" />
           <div>
             <h1 className="text-lg font-bold">Shabuajihi Ciwidey</h1>
-            <p className="text-xs text-gray-600">Ciwidey — authentic Japanese-inspired shabu</p>
+            <p className="text-xs text-gray-600">Sensasi Shabu & BBQ terlezat di Ciwidey</p>
           </div>
         </div>
 
         <nav className="hidden md:flex items-center gap-6 text-sm">
           <a href="#home" onClick={handleNavClick} className="hover:opacity-80">Home</a>
           <a href="#menu" onClick={handleNavClick} className="hover:opacity-80">Menu</a>
-          <a href="#gallery" onClick={handleNavClick} className="hover:opacity-80">Gallery</a>
-          <a href="#reviews" onClick={handleNavClick} className="hover:opacity-80">Reviews</a>
-          <a href="#contact" onClick={handleNavClick} className="hover:opacity-80">Contact</a>
+          <a href="#gallery" onClick={handleNavClick} className="hover:opacity-80">Galeri</a>
+          <a href="#reviews" onClick={handleNavClick} className="hover:opacity-80">Testimoni</a>
+          <a href="#contact" onClick={handleNavClick} className="hover:opacity-80">Kontak</a>
           <a href={WHATSAPP} target="_blank" rel="noreferrer" className="ml-2 inline-block px-4 py-2 rounded-lg font-semibold text-white" style={{ backgroundColor: PRIMARY }}>Order</a>
         </nav>
 

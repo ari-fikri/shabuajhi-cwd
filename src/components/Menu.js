@@ -3,8 +3,8 @@ import React from "react";
 export default function Menu({ menu, setSelectedItem, selectedItem, WHATSAPP, PRIMARY }) {
   return (
     <section id="menu" className="max-w-6xl mx-auto px-6 py-16 bg-white">
-      <h3 className="text-3xl font-bold text-center">Menu</h3>
-      <p className="text-center text-gray-600 mt-2">Six popular choices — photos, descriptions, and prices.</p>
+      <h3 className="text-3xl font-bold text-center">Paket Menu</h3>
+      <p className="text-center text-gray-600 mt-2">Enam pilihan paket menu yang sesuai dengan selera anda </p>
 
       <div className="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {menu.map((m) => (
