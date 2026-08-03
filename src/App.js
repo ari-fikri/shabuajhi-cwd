@@ -1,9 +1,11 @@
 import React, { useEffect, useRef } from "react";
 import heroImage from './assets/bowl.png';
-import fullMenuImage from './assets/full_menu.jpg';
+import fullMenuImage from './assets/oishi.png';
 import shabuBowlImage from './assets/shabu_bowl.jpg';
 import meatImage from './assets/meat.jpg';
 import familyImage from './assets/family.jpg';
+
+import { menu } from './data/menu';
 
 import gallery1 from './assets/gallery_1.jpg';
 import gallery2 from './assets/gallery_2.jpg';
@@ -21,15 +23,6 @@ export default function App() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   const PRIMARY = "#ff472f";
   const WHATSAPP = "https://wa.me/6285314680572?text=Halo%20Shabuajihi,%20saya%20ingin%20pesan"; // <-- replace with real number
-
-  const menu = [
-    { id: 1, name: "Shabu Classic", desc: "Thinly sliced beef, house broth, seasonal veg.", price: "Rp 85.000", img: fullMenuImage },
-    { id: 2, name: "Seafood Shabu", desc: "Shrimp, squid, and fish balls", price: "Rp 95.000", img: meatImage },
-    { id: 3, name: "Vegetarian", desc: "Tofu, mushrooms, seasonal greens", price: "Rp 70.000", img: shabuBowlImage },
-    { id: 4, name: "Spicy Miso", desc: "Miso-based spicy broth with premium beef", price: "Rp 95.000", img: "https://images.unsplash.com/photo-1544025162-d76694265947" },
-    { id: 5, name: "Family Hotpot", desc: "Shareable pot for 3-4 people", price: "Rp 240.000", img: familyImage },
-    { id: 6, name: "Sukiyaki", desc: "Sweet-savory sukiyaki style", price: "Rp 110.000", img: "https://images.unsplash.com/photo-1551218808-94e220e084d2" },
-  ];
 
   const reviews = [
     { id: 1, name: "Rina", text: "Best shabu I had in Ciwidey — broths are rich and service is friendly!" },
@@ -164,16 +157,18 @@ export default function App() {
 
         <div className="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {menu.map((m) => (
-            <article key={m.id} className="bg-gray-50 rounded-2xl overflow-hidden shadow hover:shadow-lg transition">
+            <article key={m.id} className="bg-gray-50 rounded-2xl overflow-hidden shadow hover:shadow-lg transition flex flex-col h-full">
               <div className="h-48 overflow-hidden">
                 <img src={`${m.img}?q=80&w=800&auto=format&fit=crop`} alt={m.name} className="w-full h-full object-cover" />
               </div>
-              <div className="p-4">
+              <div className="p-4 flex flex-col flex-grow">
                 <h4 className="font-semibold text-lg">{m.name}</h4>
                 <p className="text-sm text-gray-600 mt-1">{m.desc}</p>
-                <div className="mt-4 flex items-center justify-between">
-                  <div className="font-bold">{m.price}</div>
-                  <a href={WHATSAPP} target="_blank" rel="noreferrer" className="px-3 py-2 rounded-md text-white font-semibold" style={{ backgroundColor: PRIMARY }}>Order</a>
+                <div id="price-and-order" className="mt-auto">
+                  <div className="mt-4 flex items-center justify-between">
+                    <div className="font-bold">{m.price}</div>
+                    <a href={WHATSAPP} target="_blank" rel="noreferrer" className="px-3 py-2 rounded-md text-white font-semibold" style={{ backgroundColor: PRIMARY }}>Order</a>
+                  </div>
                 </div>
               </div>
             </article>
