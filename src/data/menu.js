@@ -6,7 +6,7 @@ import mabarAImg from '../assets/mabar_a.png';
 import mabarCImg from '../assets/mabar_c.png';
 
 export const menu = [
-  { id: 1, name: "Oishi", desc: "Paket Shabu dan BBQ untuk 4 orang dengan alat.", price: "Rp 310.000", img: oishiImg,
+  { id: 1, name: "Oishi", desc: "Paket Shabu dan BBQ untuk 4 orang dengan alat.", price: "Rp 360.000", img: oishiImg,
     fullDesc: "\n"+
     "Beef lowfat 200gr\n"+
     "Beef fat 200gr\n"+
@@ -23,7 +23,7 @@ export const menu = [
     "Bawang putih + bawang bombay\n"+
     "Saus 3 botol\n"
    },
-  { id: 2, name: "Kimochi", desc: "Paket BBQ saja untuk 4 orang dengan alat", price: "Rp 250.000", img: kimochiImg,
+  { id: 2, name: "Kimochi", desc: "Paket BBQ saja untuk 4 orang dengan alat", price: "Rp 310.000", img: kimochiImg,
     fullDesc: "\n"+
     "Beef Lowfat : 200gr\n"+
     "Beef Fat : 200gr\n"+
@@ -37,7 +37,7 @@ export const menu = [
     "1 grill + capitan\n"+
     "4 set alat makan barbeque\n"
    },
-  { id: 3, name: "Aishiteru", desc: "Paket Shabu dan BBQ untuk 2 orang dengan alat", price: "Rp 187.000", img: aishiteruImg,
+  { id: 3, name: "Aishiteru", desc: "Paket Shabu dan BBQ untuk 2 orang dengan alat", price: "Rp 237.000", img: aishiteruImg,
     fullDesc: "\n"+
     "Beef mix 150gr\n"+
     "Udang, ayam 100gr\n"+
@@ -58,7 +58,7 @@ export const menu = [
     "Panci kecil 1\n"+
     "Alat makan 2 set shabu & bbq\n"
    },
-  { id: 4, name: "Ichiban Shabu", desc: "Paket Shabu untuk 4 orang dengan alat", price: "Rp 210,000", img: ichibanShabuImg, 
+  { id: 4, name: "Ichiban Shabu", desc: "Paket Shabu untuk 4 orang dengan alat", price: "Rp 260,000", img: ichibanShabuImg, 
     fullDesc: "\n"+
       "Beef Lowfat 100gr\n"+
       "Fishball 24 pcs\n"+
@@ -68,7 +68,7 @@ export const menu = [
       "Jamur mix (enoki + jamur kuping)\n"+
       "Cabe bubuk\n"
    },
-  { id: 5, name: "Mabar A", desc: "Paket Shabu dan BBQ untuk 10 orang dengan alat", price: "Rp 495.000", img: mabarAImg,
+  { id: 5, name: "Mabar A", desc: "Paket Shabu dan BBQ untuk 10 orang dengan alat", price: "Rp 545.000", img: mabarAImg,
     fullDesc: "\n"+
     "Ayam 400gr\n"+
     "Lowfat beef 400gr\n"+
@@ -92,7 +92,7 @@ export const menu = [
     "Paper bowl + sendok\n"+
     "Piring / pisin plastik + sumpit\n"
    },
-  { id: 6, name: "Mabar C", desc: "Paket BBQ saja untuk 10 orang dengan alat", price: "Rp 320.000", img: mabarCImg,
+  { id: 6, name: "Mabar C", desc: "Paket BBQ saja untuk 10 orang dengan alat", price: "Rp 370.000", img: mabarCImg,
     fullDesc: "\n"+
      "Ayam 400gr\n"+
      "Lowfat beef 400gr\n"+
