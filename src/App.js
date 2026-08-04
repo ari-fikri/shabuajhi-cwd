@@ -1,10 +1,15 @@
 import React, { useEffect, useRef } from "react";
 import { menu } from './data/menu';
 
-import gallery1 from './assets/gallery_1.jpg';
-import gallery2 from './assets/gallery_2.jpg';
-import gallery3 from './assets/gallery_3.png';
-import gallery4 from './assets/gallery_4.jpeg';
+import gallery1 from './assets/gallery/gallery_1.png';
+import gallery2 from './assets/gallery/gallery_2.png';
+import gallery3 from './assets/gallery/gallery_3.png';
+import gallery4 from './assets/gallery/gallery_4.png';
+import gallery5 from './assets/gallery/gallery_5.png';
+import gallery6 from './assets/gallery/gallery_6.png';
+import gallery7 from './assets/gallery/gallery_7.png';
+import gallery8 from './assets/gallery/gallery_8.png';
+import gallery9 from './assets/gallery/gallery_9.png';
 
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
@@ -30,7 +35,7 @@ export default function App() {
     { id: 3, name: "Sari", text: "Dagingnya empuk, sayurnya segar dan porsinya melimpah. Sangat direkomendasikan." },
   ];
 
-  const galleryImages = [gallery1, gallery2, gallery3, gallery4, gallery1, gallery2, gallery3, gallery4, gallery1];
+  const galleryImages = [gallery1, gallery2, gallery3, gallery4, gallery5, gallery6, gallery7, gallery8, gallery9];
 
   // Parallax refs
   const parallaxRef = useRef(null);
